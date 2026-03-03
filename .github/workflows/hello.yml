@@ -6,6 +6,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-  steps:
-    - name: say hello
-    run: echo "Hello, Github Action"
+    steps:
+      - name: say hello
+        run: echo "Hello, Github Action"

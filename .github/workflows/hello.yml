@@ -1,0 +1,9 @@
+name: Hello all
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  steps:
+    -run: echo "Hello, Github Action"

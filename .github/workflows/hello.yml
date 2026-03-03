@@ -12,7 +12,7 @@ jobs:
       - name: say hello to all users
         run: echo "hello $USER"
         
-  hobbies:
+  details:
     runs-on: ubuntu-latest
     steps:
          - name: daily hobbies

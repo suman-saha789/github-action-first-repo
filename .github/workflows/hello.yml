@@ -6,4 +6,4 @@ on:
       - main
 jobs:
   steps:
-    -run: echo "Hello, Github Action"
+    - run: echo "Hello, Github Action"

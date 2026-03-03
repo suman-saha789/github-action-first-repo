@@ -11,3 +11,13 @@ jobs:
         run: echo "Hello, Github Action"
       - name: say hello to all users
         run: echo "hello $USER"
+        
+  hobbies:
+    runs-on: ubuntu-latest
+    steps:
+         - name: daily hobbies
+           run: docker --version && python --version
+           
+       
+           
+        

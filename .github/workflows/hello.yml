@@ -4,5 +4,8 @@ on:
     branches:
       - main
 jobs:
+  build:
+    runs-on: ubuntu-latest
   steps:
-    - run: echo "Hello, Github Action"
+    - name: say hello to Github
+      run: echo "Hello, Github Action"

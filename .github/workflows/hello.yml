@@ -1,6 +1,10 @@
 name: Hello all
 on:
-  workflow_dispatch: 
+  push:
+    branches: [main]
+#Here path is used for filtering. if .html file changes then only CICD pipeline will run
+    paths:
+      - "**.html
   
 jobs:
   build:

@@ -10,13 +10,13 @@ jobs:
       - name: get code from github
         run: echo "git clone"
 
-   build: 
+  build: 
      runs-on: ubuntu-latest
      steps:
        - name: Build the code
          run: echo "Build code"
 
-    test:
+  test:
       runs-on: ubuntu-latest
       steps:
         - name: Test code

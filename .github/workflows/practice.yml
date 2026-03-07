@@ -2,6 +2,16 @@ name: Practice Github Action
 
 on:
   workflow_dispatch:
+    inputs:
+      environment:
+        description: These are the environment where workflow runs
+        default: 'dev'
+        required: true
+        type: choice
+        options:
+          - dev
+          - test
+          - prod
    
 jobs:
   code:

@@ -1,0 +1,20 @@
+Activating GitHub Actions extension...
+
+Cannot fetch github context
+Error: Cannot fetch github context
+	at De (/root/.vscode/extensions/github.vscode-github-actions-0.31.0/dist/extension-node.js:1:1153509)
+	at async /root/.vscode/extensions/github.vscode-github-actions-0.31.0/dist/extension-node.js:1:1340559
+	at async ls (/root/.vscode/extensions/github.vscode-github-actions-0.31.0/dist/extension-node.js:1:1339631)
+	at async mA.n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:13398)
+	at async mA.m (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:13361)
+	at async mA.l (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:12817)
+
+Cannot fetch github context
+Error: Cannot fetch github context
+	at De (/root/.vscode/extensions/github.vscode-github-actions-0.31.0/dist/extension-node.js:1:1153509)
+	at async Ne (/root/.vscode/extensions/github.vscode-github-actions-0.31.0/dist/extension-node.js:1:1153875)
+	at async ls (/root/.vscode/extensions/github.vscode-github-actions-0.31.0/dist/extension-node.js:1:1351327)
+	at async mA.n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:13398)
+	at async mA.m (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:13361)
+	at async mA.l (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:12817)
+...initialized

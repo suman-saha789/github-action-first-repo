@@ -1,0 +1,24 @@
+from flask import Flask, render_template
+
+app = Flask(__name_pp.route('/')
+
+def hello_wor   return render_template('index.html')
+
+
+
+
+
+@apfrom flask import Flask, render_template
+app = Flask(__name__)
+
+
+@app.route('/')
+def hello_world():
+    return render_template('index.html')
+
+
+@app.route('/health')
+def health():
+    return 'Server is up and running'
+
+    

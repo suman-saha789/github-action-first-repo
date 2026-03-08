@@ -1,0 +1,24 @@
+2026-03-08 14:02:04.977 [info] Extension host with pid 64977 started
+2026-03-08 14:02:05.082 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-03-08 14:02:05.549 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-03-08 14:02:05.911 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-03-08 14:02:05.961 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-03-08 14:02:06.442 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-03-08 14:02:07.490 [info] Eager extensions activated
+2026-03-08 14:02:07.603 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-03-08 14:02:07.637 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-03-08 14:02:25.484 [info] Extension host terminating: renderer closed the MessagePort
+2026-03-08 14:02:25.589 [info] Extension host with pid 64977 exiting with code 0
+2026-03-08 14:02:37.105 [info] Extension host with pid 65091 started
+2026-03-08 14:02:37.127 [info] Skipping acquiring lock for /root/my_project/github-action-first-repo/code/User/workspaceStorage/3ed1633a51cacb471ae20f74d47c6a46.
+2026-03-08 14:02:37.562 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-03-08 14:02:37.871 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-03-08 14:02:38.029 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2026-03-08 14:02:38.256 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2026-03-08 14:02:38.450 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-03-08 14:02:38.453 [info] ExtensionService#_doActivateExtension github.vscode-github-actions, startup: false, activationEvent: 'workspaceContains:**/.github/workflows/**,**/action.yml,**/action.yaml'
+2026-03-08 14:02:41.522 [info] Eager extensions activated
+2026-03-08 14:02:41.536 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-03-08 14:02:41.552 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-03-08 14:22:45.579 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2026-03-08 14:25:35.306 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'

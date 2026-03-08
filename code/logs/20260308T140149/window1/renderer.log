@@ -1,0 +1,16 @@
+2026-03-08 14:01:54.152 [warning] Creation of workbench contribution 'workbench.contrib.chatSetup' took 24ms.
+2026-03-08 14:01:55.840 [info] Started local extension host with pid 64977.
+2026-03-08 14:01:59.309 [info] MCP Registry configured: https://api.mcp.github.com
+2026-03-08 14:02:02.767 [info] [perf] Render performance baseline is -1ms
+2026-03-08 14:02:03.883 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-03-08 14:02:28.406 [info] Started local extension host with pid 65091.
+2026-03-08 14:02:30.361 [info] MCP Registry configured: https://api.mcp.github.com
+2026-03-08 14:02:30.962 [warning] No search provider registered for scheme: file, waiting
+2026-03-08 14:02:30.979 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-03-08 14:02:34.134 [info] [perf] Render performance baseline is -1ms
+2026-03-08 14:02:36.890 [error] [Extension Host] Extension `vscode.git` is already registered
+2026-03-08 14:02:37.033 [error] [Extension Host] Extension `vscode.terminal-suggest` is already registered
+2026-03-08 14:02:37.038 [error] [Extension Host] Extension `github.vscode-github-actions` is already registered
+2026-03-08 14:25:39.097 [info] Extension host (LocalProcess pid: 65091) is unresponsive.
+2026-03-08 14:25:39.137 [info] Extension host (LocalProcess pid: 65091) is responsive.
+2026-03-08 14:26:00.463 [error] An unknown error occurred. Please consult the log for more details.

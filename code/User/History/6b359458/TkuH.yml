@@ -1,4 +1,3 @@
-file:///root/my_project/github-action-first-repo/.github/workflows/python_matrix.yml {"mtime":1772960088656,"ctime":1772958866392,"size":378,"etag":"3fmioh2c7c6","orphaned":false,"typeId":""}
 name: python lint
 
 on:
@@ -17,7 +16,7 @@ jobs:
       - name: setup python 
         uses: actions/setup-python@v5
         with:
-        python-version: "3.13"
+          python-version: "3.13"
 
       - name: install dependencies
         run: pip install -r requirements.txt   

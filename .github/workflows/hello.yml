@@ -1,5 +1,6 @@
 name: Hello all
 on:
+  workflow_dispatch:
   #push:
     #branches: [main]
     #paths:

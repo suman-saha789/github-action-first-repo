@@ -1,9 +1,9 @@
 name: Hello all
 on:
-  push:
-    branches: [main]
-    paths:
-      - "**.html"
+  #push:
+    #branches: [main]
+    #paths:
+      #- "**.html"
   
 jobs:
   build:

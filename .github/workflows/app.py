@@ -1,14 +1,4 @@
 from flask import Flask, render_template
-
-app = Flask(__name_pp.route('/')
-
-def hello_wor   return render_template('index.html')
-
-
-
-
-
-@apfrom flask import Flask, render_template
 app = Flask(__name__)
 
 
@@ -21,4 +11,4 @@ def hello_world():
 def health():
     return 'Server is up and running'
 
-    
+app.run(port 80)

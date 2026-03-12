@@ -23,10 +23,10 @@ jobs:
                 
             
             - name: install dependencies
-              run: pip install -r requirements.txt
+              run: pip install -r 
 
             - name: run linter
-              run: flake8 app.py 
+              run: flake8 app.py /root/my_project/github-action-first-repo/.github/workflows/requirements.txt
 
             - name: run SAST 
               run: bandit -r app.py

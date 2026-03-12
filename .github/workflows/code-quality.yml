@@ -23,7 +23,7 @@ jobs:
                 
             
             - name: install dependencies
-              run: pip install -r /root/my_project/github-action-first-repo/.github/workflows/requirements.txt
+              run: pip install -r /root/my_project/github-action-first-repo/requirements.txt
 
             - name: run linter
               run: flake8 app.py 

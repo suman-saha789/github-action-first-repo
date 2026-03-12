@@ -1,0 +1,46 @@
+name: Practice Github Action
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: These are the environment where workflow runs
+        default: 'dev'
+        required: true
+        type: choice
+        options:
+          - dev
+          - test
+          - prod
+   
+jobs:
+  code:
+    runs-on: ubuntu-latest
+    steps:
+      - name: get code from github
+        run: echo "git clone"
+
+  build: 
+    needs: [code]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build the code
+        run: echo "Build code"
+
+  test:
+    needs: [build]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test code
+        run: echo "Test the code"
+
+  deploy:
+    if: inputs.environment== 'prod'
+    needs: [build,test]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy code
+        run: echo "code successfully deployed"
+          
+    
+    

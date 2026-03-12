@@ -1,0 +1,25 @@
+#This file will create pipeline of all the files eg:code-quality,dependency-scan,dploy-to-server,docker-lint,image-scan
+
+name: DevSecOps end to end Pipeline
+
+on:
+    workflow_dispatch:
+
+jobs:
+    code-quality:
+        uses: ./.github/workflows/code-quality.yml
+
+    secrets-scan:
+        uses: ./.github/workflows/secrets-scan.yml
+        secrets: inherit
+
+    dependency-scan:
+        uses: ./.github/workflows/dependency-scan.yml
+
+    docker-scan:
+        uses: ./.github/workflows/docker-lint.yml
+
+    doker-build:
+        needs: [code-quality, secrets-scan, dependency-scan, docker-scan]
+        uses: ./.github/workflows/docker-build-push.yml
+        secrets: inherit

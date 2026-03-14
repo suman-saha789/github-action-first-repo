@@ -15,7 +15,7 @@ jobs:
             - name: Checkout code
               uses: actions/checkout@v4
 
-            - name: ssh to prod server
+            - name: ssh to prod server and create app folder
               uses: appleboy/ssh-action@v1.0.3
               with:
                 host: ${{ secrets.EC2_SSH_HOST }}

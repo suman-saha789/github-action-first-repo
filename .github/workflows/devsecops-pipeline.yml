@@ -30,6 +30,7 @@ jobs:
     trivy:
         needs: [doker-build]
         uses: ./.github/workflows/image-scan.yml
+        secrets: inherit
 
 
     
